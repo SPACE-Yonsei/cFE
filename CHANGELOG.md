@@ -1,5 +1,9 @@
 # Changelog
 
+## Development Build: equuleus-rc1+dev94
+- change CFE_MSG_Message from union to struct
+- See <https://github.com/nasa/cFE/pull/2515>
+
 ## Development Build: equuleus-rc1+dev90
 - EDS XML file updates
 - add EDS cmake hooks

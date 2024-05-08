@@ -1,20 +1,21 @@
 CFE_LIB, cfe_assert,   CFE_Assert_LibInit, ASSERT_LIB,    0,   0,     0x0, 0;
 CFE_LIB, sample_lib,   SAMPLE_LIB_Init,    SAMPLE_LIB,    0,   0,     0x0, 0;
 CFE_LIB, spacey_lib,   SPACEY_LIB_Init,    SPACEY_LIB,    0,   0,     0x0, 0;
-CFE_APP, sample_app,   SAMPLE_APP_Main,    SAMPLE_APP,   50,   16384, 0x0, 0;
-CFE_APP, hyun_app,     HYUN_APP_Main,      HYUN_APP,     50,   16384, 0x0, 0;
-CFE_APP, rcvtest_app,  RCVTEST_APP_Main,   RCVTEST_APP,  50,   16384, 0x0, 0;
-CFE_APP, ci_lab,       CI_Lab_AppMain,     CI_LAB_APP,   60,   16384, 0x0, 0;
-CFE_APP, to_lab,       TO_Lab_AppMain,     TO_LAB_APP,   70,   16384, 0x0, 0;
-CFE_APP, sch_lab,      CH_Lab_AppMain,     SCH_LAB_APP,  80,   16384, 0x0, 0;
 CFE_APP, hk,           HK_AppMain,         HK_APP,       50,   16384, 0x0, 0;
 CFE_APP, ds,           DS_AppMain,         DS,           50,   16384, 0x0, 0;
+CFE_APP, sch_lab,      CH_Lab_AppMain,     SCH_LAB_APP,  80,   16384, 0x0, 0;
+CFE_APP, ci_lab,       CI_Lab_AppMain,     CI_LAB_APP,   60,   16384, 0x0, 0;
+CFE_APP, to_lab,       TO_Lab_AppMain,     TO_LAB_APP,   70,   16384, 0x0, 0;
 CFE_APP, imu_app,      IMU_APP_Main,       IMU_APP,      50,   16384, 0x0, 0;
 CFE_APP, gps_app,      GPS_APP_Main,       GPS_APP,      50,   16384, 0x0, 0;
 CFE_APP, as_app,       AS_APP_Main,        AS_APP,       50,   16384, 0x0, 0;
-CFE_APP, sim_app,      SIM_APP_Main,       SIM_ALL,      50,   16384, 0x0, 0;
-
-! CFE_APP, cf,          CF_AppMain,         CF_APP,       50,   16384, 0x0, 0;
+CFE_APP, vol_app,      VOL_APP_Main,       VOL_APP,      50,   16384, 0x0, 0;
+CFE_APP, logic_app,    LOGIC_APP_Main,     LOGIC_APP,    50,   16384, 0x0, 0;
+CFE_APP, control_app,  CONTROL_APP_Main,   CONTROL_APP,  50,   16384, 0x0, 0;
+CFE_APP, sim_app,      SIM_APP_Main,       SIM_APP,      50,   16384, 0x0, 0;
+CFE_APP, rcvtest_app,  RCVTEST_APP_Main,   RCVTEST_APP,  50,   16384, 0x0, 0;
+CFE_APP, sample_app,   SAMPLE_APP_Main,    SAMPLE_APP,   50,   16384, 0x0, 0;
+CFE_APP, hyun_app,     HYUN_APP_Main,      HYUN_APP,     50,   16384, 0x0, 0;
 
 !
 ! Startup script fields:
